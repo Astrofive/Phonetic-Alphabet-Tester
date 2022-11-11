@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(46, 47, 50);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#playarea {
+    display: flex;
+    flex-direction: row;
+}
+
+#textbox, #refresh {
+    border: #565656 solid 6px;
+    border-radius: 20px;
+}
+
+#textbox {
+    margin: 20px;
+    padding: 15px 40px;
+    font-family: 'Fragment Mono', monospace;
+    font-size: 56pt;
+    letter-spacing: 8pt;
+}
+
+#refresh {
+    padding: 20px;
+    margin: 20px;
+    width: 130px;
+}
+#refresh:hover, #refresh:hover> * {
+    background-color: #858585;
+    cursor: pointer;
+}
