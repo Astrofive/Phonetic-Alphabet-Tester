@@ -54,4 +54,4 @@ getWeather();
 
 
 
-document.querySelector('#versionnum').textContent = '1.2.0';
+document.querySelector('#versionnum').textContent = '1.2.1';
