@@ -26,6 +26,7 @@ function refresh(length){
     }
     console.log(result);
     document.querySelector('#textbox').textContent = result;
+    document.querySelector('#runcount').textContent = eastereggcount;
 }
 
 const helpbutton = document.querySelector('.dropdown');

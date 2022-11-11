@@ -51,6 +51,18 @@ body {
     padding: 7px;
     font-size: 0.7rem;
     background-color: #3c3c3c;
+    padding: 7px;
+}
+
+#runcount {
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    padding: 7px;
+    font-size: 0.7rem;
+    background-color: #3c3c3c;
+    padding: 7px;
+    color: #767676;
 }
 
 #learningsection {
