@@ -31,5 +31,5 @@ function refresh(length){
 const helpbutton = document.querySelector('.dropdown');
 const dropdowncontent = document.querySelector('#dropdowncontent');
 helpbutton.addEventListener('click', () => {
-    dropdowncontent.classList.toggle("show");
+    dropdowncontent.classList.toggle("hide");
 });

@@ -75,7 +75,7 @@ button.dropdown:hover{
     cursor: pointer;
 }
 
-.show {display: none;}
+.hide {display: none;}
 
 .alphabet {
     display: none;
