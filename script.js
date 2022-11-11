@@ -22,8 +22,14 @@ function refresh(length){
     }
     if (eastereggcount == 100) {
         console.log(eastereggcount);
-        result = "DAMN,100??"
+        result = "WOW,100TAPS"
     }
     console.log(result);
     document.querySelector('#textbox').textContent = result;
 }
+
+const helpbutton = document.querySelector('.dropdown');
+const dropdowncontent = document.querySelector('#dropdowncontent');
+helpbutton.addEventListener('click', () => {
+    dropdowncontent.classList.toggle("show");
+});
