@@ -46,7 +46,8 @@ async function getWeather(){
         method: 'GET'
     });
     const data = await weatherresponse.json();
-    document.querySelector('#weathertext').textContent = data.properties.periods[0].detailedForecast
+    document.querySelector('#weathertext').textContent = data.properties.periods[0].detailedForecast;
+    document.querySelector('#temp').textContent = data.properties.periods[0].temperature;
 }
 getWeather();
 
