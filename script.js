@@ -1,5 +1,5 @@
 
-let eastereggcount = 0
+let eastereggcount = 1
 
 //program button to refresh text when clicked
 const refreshbutton = document.querySelector('#refresh');
