@@ -39,3 +39,5 @@ const dropdowncontent = document.querySelector('#dropdowncontent');
 helpbutton.addEventListener('click', () => {
     dropdowncontent.classList.toggle("hide");
 });
+
+document.querySelector('#versionnum').textContent = '1.1.4';
