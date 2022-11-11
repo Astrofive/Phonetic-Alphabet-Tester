@@ -15,7 +15,7 @@ function refresh(length){
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     for (let i = 0; i < length; i++){
         let newletter = letters.charAt(Math.floor(Math.random() * letters.length));
-        if (!(newletter == result.charAt(result.length-1))) {
+        if (!(result.includes(newletter))) {
             result += newletter;
         } else {
             i--;
@@ -40,4 +40,4 @@ helpbutton.addEventListener('click', () => {
     dropdowncontent.classList.toggle("hide");
 });
 
-document.querySelector('#versionnum').textContent = '1.1.4';
+document.querySelector('#versionnum').textContent = '1.1.5';
