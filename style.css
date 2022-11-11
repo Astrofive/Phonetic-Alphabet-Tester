@@ -34,7 +34,7 @@
     margin: 20px;
     width: 130px;
 }
-#refresh:hover, #refresh:hover> * {
+#refresh:hover {
     background-color: #858585;
     cursor: pointer;
 }

@@ -3,6 +3,7 @@
 const refreshbutton = document.querySelector('#refresh');
 refreshbutton.addEventListener('click', () => {
     refresh(10);
+    refreshbutton.style.backgroundColor = "";
 });
 
 // refresh() generates 10 random letters and updates document
