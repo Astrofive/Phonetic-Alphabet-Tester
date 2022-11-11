@@ -39,6 +39,16 @@
     cursor: pointer;
 }
 
+#versiontext {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 30%;
+    font-size: 0.8rem;
+}
+
 
 /* for mobile devices */
 @media (max-width: 900px){
