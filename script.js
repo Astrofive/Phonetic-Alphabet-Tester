@@ -14,7 +14,12 @@ function refresh(length){
     let result = '';
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     for (let i = 0; i < length; i++){
-        result += letters.charAt(Math.floor(Math.random() * letters.length));
+        let newletter = letters.charAt(Math.floor(Math.random() * letters.length));
+        if (!(newletter == result.charAt(result.length-1))) {
+            result += newletter;
+        } else {
+            i--;
+        }
     } 
     if (eastereggcount == 10) {
         console.log(eastereggcount);
