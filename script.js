@@ -40,4 +40,17 @@ helpbutton.addEventListener('click', () => {
     dropdowncontent.classList.toggle("hide");
 });
 
-document.querySelector('#versionnum').textContent = '1.1.5';
+// weather api
+async function getWeather(){
+    const weatherresponse = await fetch(`https://api.weather.gov/gridpoints/FWD/31,80/forecast`, {
+        method: 'GET'
+    });
+    const data = await weatherresponse.json();
+    document.querySelector('#weathertext').textContent = data.properties.periods[0].detailedForecast
+}
+getWeather();
+
+
+
+
+document.querySelector('#versionnum').textContent = '1.2.0';
